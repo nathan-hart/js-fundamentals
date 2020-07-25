@@ -11,5 +11,14 @@ function x() {
 }
 
 // primitive data types- int null undefined string bool
-// object type - represents more complex data structures - arrays, objects, functions - can be mutated after being assigned a variable
+// object type - represents more complex data structures -
+//    arrays, objects, functions, class instances - can be mutated after being assigned a variable
 
+console.log(true) //true
+console.log(!! {})  // double !! is opposite of ! (logical "not" operator) - true
+console.log(!! []) // coerced type into bool -true
+console.log(!! '') // false
+console.log(!! 'hi') // true
+
+// && - logical "and" operator
+// || - logical "or" operator
